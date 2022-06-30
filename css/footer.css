@@ -1,0 +1,38 @@
+footer{
+    background-color: var(--background-footer);
+    text-align: center;
+    padding: 30px 2% 50px 2%;
+    font-size: 1.5em;
+}
+.footer-texto{
+    margin: 0 auto 35px auto;
+}
+.redes i{
+    margin: 0 2%;
+}
+
+#wa:hover{
+    color: #0bd011;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+#fb:hover{
+    color: #0066db;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+#ig:hover{
+    color: #d822b0;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+#gh:hover{
+    color: #0e1654;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+#ln:hover{
+    color: #0038b9;
+    font-size: 1.8rem;
+    cursor: pointer;
+}

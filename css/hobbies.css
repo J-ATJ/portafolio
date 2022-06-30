@@ -1,0 +1,39 @@
+.hobbies h1{
+    padding-top: 30px;
+    margin: 80px 0;
+}
+.myhobbies{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.hobbie{
+    margin: 35px 5%;
+    width: 40%;
+    max-width: 170px;
+    font-weight: 200;
+}
+.hobbie-img{
+    width: 70%;
+    margin-bottom: 10px;
+}
+.hobbie-img:hover{
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1040px){
+
+    .hobbie{
+        margin: 20px 3% 40px 3%;
+        padding: 10px;
+        font-weight: 400;
+    }.hobbie:hover{
+        color: var(--color-header-hover);
+    }
+
+    .myhobbies{
+        padding: 0 4%;
+    }
+}

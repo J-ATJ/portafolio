@@ -1,0 +1,37 @@
+.contacto{
+    text-align: center;
+    padding-top: 60px;
+}
+.contacto h3{
+    text-align: center;
+    font-family: var(--titles-font);
+    font-weight: 400;
+    margin: 10px 0 60px 0;
+}
+.contacto form{
+    align-items: center;
+}
+.inputC{
+    display: block;
+    border: none;
+    margin: 5px auto 25px auto;
+    background-color: var(--backgorund-contacto);
+    color: var(--color-text);
+    font-size: 20px;
+    outline: none;
+    resize: none;
+}
+
+.enviar{
+    margin: 15px 0 50px 0;
+    background-color: transparent;
+    color: var(--color-text);
+    border: solid 1px var(--color-text);
+    font-size: 20px;
+    padding: 3px 16px 3px 16px;
+    border-radius: 4px;
+}
+.enviar:hover{
+    background-color: var(--color-text-50);
+    cursor: pointer;
+}

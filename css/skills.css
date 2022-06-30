@@ -1,0 +1,63 @@
+.skills{
+    padding-top: 30px;
+    margin: 140px 0;
+}
+.div-skills{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    font-size: .9em;
+    margin: 0 5%;
+}
+.d1, .d2{
+    display: flex;
+    flex-direction: column;
+    line-height: 20px;
+}
+.r1, .r2, .r3, .r4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.myskill{
+    text-align: center;
+    font-size: 1.1em;
+}
+.imagen-skill{
+    height: 85px;
+    margin-bottom: 15px;
+}
+
+@media screen and (min-width: 768px){
+    .div-skills{
+        margin-top: 80px;
+    }
+    .d1, .d2{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .r1, .r2, .r3, .r4{
+        width: 100%;
+        margin-bottom: 60px !important;
+    }
+}
+
+@media screen and (min-width: 1044px){
+    .div-skills{
+        margin-top: 90px;
+    }
+    .d1, .d2{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .r1, .r2, .r3, .r4{
+        width: 100%;
+        margin-bottom: 100px !important;
+    }
+    .myskill:hover{
+        color: var(--color-skills-hover);
+        cursor: pointer;
+    }
+}

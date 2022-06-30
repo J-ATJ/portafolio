@@ -1,0 +1,123 @@
+.formacion-academica{
+    padding-top: 30px;
+}
+.fa-elementos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+.estudios{
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    margin-bottom: 55px;
+    text-align: center;
+}
+.fa-d1, .fa-d2{
+    display: flex;
+    flex-direction: column;
+}
+
+.fa-img{
+    width: 296px;
+}
+.fa-img:hover{
+    cursor: pointer;
+}
+
+
+
+@media screen and (min-width: 768px){
+    .fa-d1, .fa-d2{
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (min-width: 1340px){
+    .fa-elementos{
+        flex-direction: row;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#fa-robotica:hover:after{
+    transform: translateY(58%);
+    padding: 11% 5% 0 5%;
+    background-color: #00000080;
+}#fa-robotica::after{
+    padding: 50% 5% 0 5%;
+    content: "Ingeniería en Sistemas Digitales y Robótica UNITEC 2020";
+    background-color: #00000040;
+    color: #a8efd8;
+    position: absolute;
+    inset: 0;
+    text-align: center;
+    transform: translateY(80%);
+    transition: .7s;
+    font-weight: 300;
+}
+#fa-proyectos:hover:after{
+    transform: translateY(58%);
+    padding: 14% 5% 0 5%;
+    background-color: #00000080;
+}#fa-proyectos::after{
+    padding: 50% 5% 0 5%;
+    content: "Dirección de Proyectos UNITEC 2021";
+    background-color: #00000040;
+    color: #a8efd8;
+    position: absolute;
+    inset: 0;
+    text-align: center;
+    transform: translateY(80%);
+    transition: .7s;
+
+}
+#fa-datos:hover:after{
+    transform: translateY(58%);
+    padding: 14% 5% 0 5%;
+    background-color: #00000080;
+}#fa-datos::after{
+    padding: 50% 5% 0 5%;
+    content: "Análisis de Datos con Python EmTech  2021";
+    background-color: #00000040;
+    color: #a8efd8;
+    position: absolute;
+    inset: 0;
+    text-align: center;
+    transform: translateY(80%);
+    transition: .7s;
+    font-weight: 300;
+}
+#fa-one:hover:after{
+    transform: translateY(58%);
+    padding: 14% 5% 0 5%;
+    background-color: #00000080;
+}#fa-one::after{
+    padding: 50% 5% 0 5%;
+    content: "Oracle Next Education + Alura 2022";
+    background-color: #00000040;
+    color: #a8efd8;
+    position: absolute;
+    inset: 0;
+    text-align: center;
+    transform: translateY(80%);
+    transition: .7s;
+    font-weight: 300;
+}
